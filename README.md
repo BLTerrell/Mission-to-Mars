@@ -27,11 +27,11 @@ Our objective is to automate a web browser to extract data about the "Mission to
 
 I tried to follow a theme of "The Red Planet" by making the following adjustments:
 
-1. I changed the button color to a reddish adding `btn-danger` to the class.
+1. I changed the button to a reddish color by adding `btn-danger` to the class attribute.
 
-2. To help visually separate sections of the webpage I changed the `<h2>` and `<h3>` tags to have a reddish background by adding `bg-danger` to the class.
+2. To help visually separate sections of the webpage I changed the `<h2>` and `<h3>` tags to have a reddish background by adding `bg-danger` to the class attribute.
 
-3. To get the most recent headline to stick out I changed its text color to reddish adding `text-danger` to the `<h5>` class and graying the text below by adding `text-muted` to the `<p>` class.
+3. To get the most recent headline to stick out I changed its text color to a reddish color by adding `text-danger` to the `<h5>` class attribute and graying the text below by adding `text-muted` to the `<p>` class attribute.
 
 4. I also added `<div class="col-xs-12">` and other `col-xs` values to make the webpage mobile compatible:
 <img src="Resources/mobile_compatibility.png">
