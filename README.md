@@ -1,2 +1,37 @@
-# Mission-to-Mars
-Automate a web browser to extract data about the "Mission to Mars", store that data in NoSQL database, and then display with Flask.
+# Mission to Mars
+
+## Overview of Project
+
+### Purpose
+
+Our objective is to automate a web browser to extract data about the "Mission to Mars", store that data in MongoDB, and then display with Flask.
+
+### Resources
+
+- Sites scraped: 
+  - [https://mars.nasa.gov/](https://mars.nasa.gov/)
+  - [https://astrogeology.usgs.gov/](https://astrogeology.usgs.gov/)
+  - [https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/)
+  - [https://space-facts.com/mars/](https://space-facts.com/mars/)
+- Software: Python, BeautifulSoup, splinter, MongoDB, Visual Studio Code, flask, pandas
+
+## Project Results
+
+### Data Scraped and Displayed
+
+<img src="Resources/localhost.png">
+
+## Summary
+
+### Additional Bootstrap Customizations
+
+I tried to follow a theme of "The Red Planet" by making the following adjustments:
+
+1. I changed the button color to a reddish adding `btn-danger` to the class.
+
+2. To help visually separate sections of the webpage I changed the `<h2>` and `<h3>` tags to have a reddish background by adding `bg-danger` to the class.
+
+3. To get the most recent headline to stick out I changed its text color to reddish adding `text-danger` to the `<h5>` class and graying the text below by adding `text-muted` to the `<p>` class.
+
+4. I also added `<div class="col-xs-12">` and other `col-xs` values to make the webpage mobile compatible:
+<img src="Resources/mobile_compatibility.png">
